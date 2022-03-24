@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+</head>
+<style>
+    body {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin-right: 2%;
+  margin-left: auto;
+  max-height: 800px;
+}
+/*********** Nav Bar ***********/
+nav {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  padding: 10px;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.stunning-logo > img {
+  margin-left: 50px;
+  width: 130px;
+}
+.menu-items a {
+  color: #cececd;
+  margin-left: 50px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.menu-items a:hover {
+  border-bottom: 3.5px solid #5243c0;
+  color: black;
+}
+.your-account button {
+  color: #6555c3;
+  background-color: #ffd8db;
+  border: none;
+  width: 130px;
+  height: 60px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-right: 3%;
+  font-weight: 600;
+  transition: all 300ms;
+}
+.your-account {
+  padding-right: 30px;
+}
+.your-account button:hover {
+  background-color: #ff7d7d;
+  color: blue;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgb(253, 174, 187);
+}
+/*********** End of Nav Bar ***********/
+
+/*********** Main Section ***********/
+main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+section aside {
+  padding: 0 auto;
+  width: 50%;
+  margin: 0 auto;
+}
+.left-section {
+  margin: 0;
+  width: 40%;
+  margin-left: 70px;
+  text-align: left;
+  margin-left: 10%;
+}
+.title h1 {
+  font-size: 75px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Sora", sans-serif;
+  font-weight: 900;
+}
+.title h1 button {
+  background-color: #5243c0;
+  border: none;
+  padding: 5px;
+  position: relative;
+  bottom: 4px;
+}
+.title p {
+  color: #706c6c;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 40px;
+}
+.button-arrows {
+  margin-top: 25px;
+}
+.button-arrows button {
+  background-color: #5243c0;
+  color: #ffffff;
+  padding: 23px 40px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  margin: 0;
+  cursor: pointer;
+  transition: all 300ms;
+}
+.button-arrows button:hover {
+  background-color: #311aca;
+  color: white;
+  box-shadow: 0px 0px 10px #5243c0;
+  transform: scale(1.05);
+}
+.arrows {
+  position: relative;
+  top: 25px;
+  margin-left: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px lightgray;
+  cursor: pointer;
+  transition: all 300ms;
+}
+.arrows:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgb(158, 158, 158);
+}
+.right-section {
+  width: 60%;
+  transition: all 400ms;
+}
+.right-section img {
+  width: 100%;
+}
+.right-section:hover {
+  transform: scale(1.05);
+}
+.accountsection {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f5f5ef;
+  border: 1px solid #f5f5ef;
+  border-radius: 20px;
+  width: 420px;
+  height: 60px;
+  margin-top: 15px;
+  transition: all 350ms;
+}
+.cards_div {
+  margin-top: 120px;
+}
+h3 {
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 140px;
+}
+.date {
+  color: gray;
+  opacity: 0.4;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.space {
+  width: 20px;
+  height: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.checkbox:hover {
+  background-color: white;
+  box-shadow: 0px 0px 30px #c5c4c1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+#check-icon1 {
+  position: relative;
+}
+
+#check-icon2 {
+  position: absolute;
+  top: 0px;
+
+  display: none;
+}
+.checkbox:hover #check-icon2 {
+  display: block;
+}
+
+#rightsection {
+  width: 40%;
+  padding-left: 9%;
+  padding-right: 5%;
+  margin-top: 60px;
+}
+/*********** End Main Section ***********/
+footer {
+  width: 100%;
+  height: 150px;
+}
+
+</style>
+
+<body>
+  <!------------ Nav Bar ------------>
+    <header>
+        <nav>
+          <div class="nav-bar">
+            <div class="stunning-logo">
+              <img src="https://i.ibb.co/kmQkRGH/stunning-logo.png" alt="stunning-logo"/>
+            </div>
+            <div class="menu-items">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Blog</a>
+              <a href="#">Jobs</a>
+            </div>
+            <div class="your-account">
+              <button>Your Account</button>
+            </div>
+          </div>
+        </nav>
+    </header> 
+    <!------------ End of Navbar  ------------>
+
+    <!------------ Main Section ----------->
+    <main>
+        <section>
+            <aside class="left-section">
+              <div class="title">
+                <h1>Stunning <br> Workplace<button></button></span></h1>
+                <p>With Stunning, remote teams can organize projects,<br>manage shifting priorities, and get work done.</p>
+              </div>
+                <div class="button-arrows">
+                  <button id="button">New Account</button>
+                  <img class="arrows" src="https://i.ibb.co/SPhppDV/arrow-up.png" alt="arrow-up">
+                  <img class="arrows" src="https://i.ibb.co/Qfd0wJX/arrow-down.png" alt="arrow-down"> 
+                </div>
+                <div class="checkbox cards_div">
+
+                    <div id=check-icon1>
+                        <img  src="https://i.ibb.co/DYjPHRv/tick-gray.png"alt="tick-gray"/>
+                       <div id="check-icon2">
+                           <img src="https://i.ibb.co/TPBrG0w/tick-blue.png"/>
+                       </div> 
+                    
+                    </div>
+                                           
+                    <div> <h3>
+                        Dmm design
+                        </h3></div>
+                        <div> <img src="https://i.ibb.co/vkQfm8q/user-pink.png"alt="user-pink"/></div>
+                        <div> <p class="date">20 Dec</p></div>
+                        <div style=" background-color: #FED7DA"class="space"></div>
+                    </div>
+
+                        <div class="checkbox">
+                            <div id=check-icon1>
+                                <img  src="https://i.ibb.co/DYjPHRv/tick-gray.png"alt="tick-gray"/>
+                               <div id="check-icon2">
+                                   <img src="https://i.ibb.co/TPBrG0w/tick-blue.png"/>
+                               </div> 
+                            
+                            </div>
+                        <div> <h3>Blurr animation</h3></div>
+                        <div> <img src="https://i.ibb.co/G0qLfLs/user-orange.png" alt="user-orange"/></div>
+                        <div> <p class="date">22 Dec</p></div>
+                        <div style="background-color: #FD6534" class="space"></div>
+                    </div>
+
+                    <div class="checkbox">
+                        <div id="check-icon1">
+                            <img  src="https://i.ibb.co/DYjPHRv/tick-gray.png"alt="tick-gray"/>
+                           <div id="check-icon2">
+                               <img src="https://i.ibb.co/TPBrG0w/tick-blue.png"/>
+                           </div> 
+                        
+                        </div>
+                        <div> <h3>Illustration</h3></div>
+                        <div> <img src="https://i.ibb.co/CtgnpKT/user-blue.png" alt="user-blue"/></div>
+                        <div> <p class="date">26 Dec</p></div>
+                        <div style="background-color:  #9ED095" class="space"></div>
+                
+                    </div>
+
+                    <div class="checkbox">
+                        <div id="check-icon1">
+                            <img  src="https://i.ibb.co/DYjPHRv/tick-gray.png"alt="tick-gray"/>
+                           <div id="check-icon2">
+                               <img src="https://i.ibb.co/TPBrG0w/tick-blue.png"/>
+                           </div> 
+                        
+                        </div>
+                    <div> <h3>Refunds</h3></div>
+                <div>
+                     <img src="https://i.ibb.co/s5Mzwsp/user-red.png" alt="user-red"/></div>
+                <div>
+                     <p class="date">28 Dec</p></div>
+                <div style="background-color: #FFE4A0" class="space"></div>
+                
+                    </div>
+            </div>
+              </aside>
+            <aside class="right-section">
+              <img id="right-img" src="https://i.ibb.co/nR4rmcc/landing-section-image.png" alt="landing-section-image">
+            </aside>
+        </section>
+    </main>
+    <!------------ End Main Section ----------->
+    <footer></footer>
+</body>
+</html>
